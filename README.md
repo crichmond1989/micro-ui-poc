@@ -1,5 +1,9 @@
 # Micro UI POC
 
+## Code Structure
+
+The POC includes all domains in the same git repository because the projects are intentionally small for readability. In a mature setup each `poc-*` folder would be their own git repository, with their own pipeline and code deployments. One of the major advantages of the Micro UI strategy is independent development and release schedules.
+
 ## Container Domains
 
 The purpose of a container domain is to support shell components, sub-domain components, and micro domain integration.
