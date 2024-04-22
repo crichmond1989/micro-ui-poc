@@ -1,0 +1,13 @@
+{
+  "groupRules": [
+    "^react(-dom)?$",
+    "^@angular/",
+    "^vue$",
+    "^node:",
+    {},
+    "^[@][^/]",
+    "^[@]/",
+    "^[.]"
+  ],
+  "wrappingStyle": "prettier"
+}
