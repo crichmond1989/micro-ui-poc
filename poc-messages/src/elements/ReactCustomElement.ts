@@ -1,6 +1,6 @@
 import { createRoot, Root } from "react-dom/client";
 
-abstract class ReactWebComponent<TProps> extends HTMLElement {
+abstract class ReactCustomElement<TProps> extends HTMLElement {
   abstract render(): JSX.Element;
 
   props = {} as TProps;
@@ -33,4 +33,4 @@ abstract class ReactWebComponent<TProps> extends HTMLElement {
   }
 }
 
-export default ReactWebComponent;
+export default ReactCustomElement;
