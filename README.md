@@ -4,6 +4,8 @@
 
 The POC includes all domains in the same git repository because the projects are intentionally small for readability. In a mature setup each `poc-*` folder would be its own git repository, with its own pipeline and code deployments. One of the major advantages of the Micro UI strategy is independent development and release schedules.
 
+> All projects can be launched with the following command: `bun run --filter "*" dev`. It might be worth cloning repositories in a file structure that takes advantage of this `bun` feature. Need to research further.
+
 ## Container Domains
 
 The purpose of a container domain is to support shell components, sub-domain components, and micro domain integration.
